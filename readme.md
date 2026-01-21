@@ -1,6 +1,6 @@
 # ASI1 Agent
 
-![tag:asi-llm-agent](https://img.shields.io/badge/asi-3D8BD3)
+![tag:asi1-llm-agent](https://img.shields.io/badge/asi1-3D8BD3)
 ![tag:innovationlab](https://img.shields.io/badge/innovationlab-3D8BD3)
 
 An AI assistant powered by ASI1 that can help answer questions and process queries using advanced AI capabilities.
