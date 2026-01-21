@@ -80,7 +80,7 @@ agent.include(protocol, publish_manifest=True)
 
 README = """# ASI1 Agent
 
-![tag:asi-llm-agent](https://img.shields.io/badge/asi-3D8BD3)
+![tag:asi1-llm-agent](https://img.shields.io/badge/asi1-3D8BD3)
 ![tag:innovationlab](https://img.shields.io/badge/innovationlab-3D8BD3)
 
 An AI assistant powered by ASI1 that can help answer questions and process queries using advanced AI capabilities.
@@ -93,7 +93,7 @@ An AI assistant powered by ASI1 that can help answer questions and process queri
 
 ## Usage
 
-Send messages to the agent via Agentverse or direct chat protocol to interact with the AI assistant.
+Send messages to the agent via ASI1 or direct chat protocol to interact with the AI assistant.
 """
 
 @agent.on_event("startup")
@@ -113,7 +113,7 @@ async def startup_handler(ctx: Context):
                     agent_seed_phrase=SEED_PHRASE,
                 ),
                 readme=README,
-                description="An AI assistant powered by ASI (Agentic Systems Interface) that can help answer questions and process queries."
+                description="An AI assistant powered by ASI1 that can help answer questions and process queries using advanced AI capabilities."
             )
             ctx.logger.info("✅ Registered with Agentverse")
         except Exception as e:
